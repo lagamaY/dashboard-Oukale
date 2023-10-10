@@ -17,19 +17,19 @@
         </li>
       
         <li class="nav-item">
-          <a class="nav-link" href="pages/forms/basic_elements.html">
+          <a class="nav-link" href="{{Route('getEnTempsReel')}}">
             <i class="mdi mdi-view-headline menu-icon"></i>
             <span class="menu-title">En temps réel</span>
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="pages/charts/chartjs.html">
+          <a class="nav-link" href="{{Route('getArchive')}}">
             <i class="mdi mdi-chart-pie menu-icon"></i>
             <span class="menu-title">Archives</span>
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="pages/tables/basic-table.html">
+          <a class="nav-link" href="{{Route('getVueDuRobot')}}">
             <i class="mdi mdi-grid-large menu-icon"></i>
             <span class="menu-title">Vues du robot</span>
           </a>
@@ -42,19 +42,19 @@
           <span></span>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="docs/documentation.html">
+          <a class="nav-link" href="{{Route('getEtatDeSante')}}">
             <i class="mdi mdi-file-document-box-outline menu-icon"></i>
             <span class="menu-title">Etat de santé</span>
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="docs/documentation.html">
+          <a class="nav-link" href="#">
             <i class="mdi mdi-file-document-box-outline menu-icon"></i>
             <span class="menu-title">Documentation</span>
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">
+          <a class="nav-link" href="{{Route('getContrôleAdistance')}}">
             <button class="btn bg-danger btn-sm menu-title">Contrôle à distance</button>
           </a>
         </li>

@@ -5,9 +5,8 @@
           </button>
           <div class="navbar-brand-wrapper">
             <a class="navbar-brand brand-logo" href="/"><img src="assets/images/logo.svg" alt="logo"/></a>
-            <a class="navbar-brand brand-logo-mini" href="/"><img src="assets/images/logo-mini.svg" alt="logo"/></a>
+            <!-- <a class="navbar-brand brand-logo-mini" href="/"><img src="assets/images/logo-mini.svg" alt="logo"/></a> -->
           </div>
-          <h4 class="font-weight-bold mb-0 d-none d-md-block mt-1">Welcome back, Brandon Haynes</h4>
           <ul class="navbar-nav navbar-nav-right">
             
             
@@ -68,7 +67,7 @@
           <ul class="navbar-nav mr-lg-2">
             <li class="nav-item nav-search d-none d-lg-block">
               <div class="input-group">
-                <input type="text" class="form-control" placeholder="Search Here..." aria-label="search" aria-describedby="search">
+                <input type="text" class="form-control" placeholder="Rechercher..." aria-label="search" aria-describedby="search">
               </div>
             </li>
           </ul>
@@ -81,11 +80,11 @@
               <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="profileDropdown">
                 <a class="dropdown-item">
                   <i class="mdi mdi-settings text-primary"></i>
-                  Settings
+                  Paramètre
                 </a>
                 <a class="dropdown-item">
                   <i class="mdi mdi-logout text-primary"></i>
-                  Logout
+                  Déconnexion
                 </a>
               </div>
             </li>
