@@ -64,6 +64,8 @@
         <!-- endinject -->
         <!-- Plugin js for this page-->
         <script src="assets/vendors/chart.js/Chart.min.js"></script>
+        <script src="assets/js/chart.js"></script>
+
         <script src="assets/js/jquery.cookie.js" type="text/javascript"></script>
         <!-- End plugin js for this page-->
         <!-- inject:js -->
