@@ -18,7 +18,7 @@ use App\Http\Controllers\ContrôleAdistanceController;
 Route::get('/', [AccueilController::class, 'getAccueil' ]);
 Route::get('/archive', [ArchiveController::class, 'getArchive' ])->name('getArchive');
 Route::get('/oukale-en-temps-reel', [EnTempsReelController::class, 'getEnTempsReel' ])->name('getEnTempsReel');
-Route::get('/vue-du-robot', [VueDuRobotController::class, 'getVueDuRobot' ])->name('getVueDuRobot');
+Route::get('/vue-du-robot', [VueDuRobotController::class, 'getVueDuRobot' ])->name('getVueEnsemble');
 Route::get('/etat-de-sante', [EtatDeSanteController::class, 'getEtatDeSante' ])->name('getEtatDeSante');
 Route::get('/controle-à-distance', [ContrôleAdistanceController::class, 'getContrôleAdistance' ])->name('getContrôleAdistance');
 

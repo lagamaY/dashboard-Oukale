@@ -8,30 +8,30 @@
           <a class="nav-link" href="/">
             <i class="mdi mdi-view-quilt menu-icon"></i>
             <span class="menu-title">Dashboard</span>
-            <div class="badge badge-info badge-pill">2</div>
+            <!-- <div class="badge badge-info badge-pill">2</div> -->
           </a>
-        </li>
+        </li> 
         <li class="nav-item sidebar-category">
-          <p>Données Terrain</p>
+          <p>Données</p>
           <span></span>
         </li>
       
         <li class="nav-item">
-          <a class="nav-link" href="{{Route('getEnTempsReel')}}">
+          <a class="nav-link" href="{{Route('getVueEnsemble')}}">
             <i class="mdi mdi-view-headline menu-icon"></i>
-            <span class="menu-title">En temps réel</span>
+            <span class="menu-title">Vue d'ensemble</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{Route('getEnTempsReel')}}">
+            <i class="mdi mdi-chart-pie menu-icon"></i>
+            <span class="menu-title">Donnée en temps réel</span>
           </a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="{{Route('getArchive')}}">
-            <i class="mdi mdi-chart-pie menu-icon"></i>
-            <span class="menu-title">Archives</span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="{{Route('getVueDuRobot')}}">
             <i class="mdi mdi-grid-large menu-icon"></i>
-            <span class="menu-title">Vues du robot</span>
+            <span class="menu-title">Historique des Missions</span>
           </a>
         </li>
        
@@ -50,9 +50,9 @@
         <li class="nav-item">
           <a class="nav-link" href="#">
             <i class="mdi mdi-file-document-box-outline menu-icon"></i>
-            <span class="menu-title">Documentation</span>
+            <span class="menu-title">Ressources</span>
           </a>
-        </li>
+        </li> <br/>
         <li class="nav-item">
           <a class="nav-link" href="{{Route('getContrôleAdistance')}}">
             <button class="btn bg-danger btn-sm menu-title">Contrôle à distance</button>

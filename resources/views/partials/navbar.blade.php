@@ -4,7 +4,7 @@
             <span class="mdi mdi-menu"></span>
           </button>
           <div class="navbar-brand-wrapper">
-            <a class="navbar-brand brand-logo" href="/"><img src="assets/images/logo.svg" alt="logo"/></a>
+            <a class="navbar-brand brand-logo" href="/"><img src="assets/images/logo.png" alt="logo"/></a>
             <!-- <a class="navbar-brand brand-logo-mini" href="/"><img src="assets/images/logo-mini.svg" alt="logo"/></a> -->
           </div>
           <ul class="navbar-nav navbar-nav-right">
