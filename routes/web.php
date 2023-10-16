@@ -11,6 +11,8 @@ use App\Http\Controllers\ContrôleAdistanceController;
 use App\Http\Controllers\Auth\ConnectionController;
 use App\Http\Controllers\Auth\EnregistrementController;
 use App\Http\Controllers\Auth\MotDePasseOublieController;
+use App\Http\Controllers\Auth\ReinitialerMotDePasseController;
+
 
 
 /*
@@ -34,3 +36,5 @@ Route::get('/controle-à-distance', [ContrôleAdistanceController::class, 'getCo
 Route::get('/connexion', [ConnectionController::class, 'getConnexion' ])->name('connexion');
 Route::get('/enregistrement', [EnregistrementController::class, 'getEnregistrement' ])->name('creer-un-compte');
 Route::get('/mot-de-passe-oublie', [MotDePasseOublieController::class, 'getMotDePasseOublie' ])->name('mot-de-passe-oublie');
+Route::get('/reinitialiser-mot-de-passe-oublie', [ReinitialerMotDePasseController::class, 'getReinitialerMotDePasseOublie' ])->name('reinitialiser-mot-de-passe-oublie');
+
