@@ -29,7 +29,7 @@
                   <div class="form-check">
                    
                   </div>
-                  <a href="#" class="auth-link text-black">Mot de passe oublié ?</a>
+                  <a href="{{route('mot-de-passe-oublie')}}" class="auth-link text-black">Mot de passe oublié ?</a>
                 </div>
                 <div class="mb-2">
                  

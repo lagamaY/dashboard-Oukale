@@ -10,6 +10,9 @@ use App\Http\Controllers\ContrôleAdistanceController;
 
 use App\Http\Controllers\Auth\ConnectionController;
 use App\Http\Controllers\Auth\EnregistrementController;
+use App\Http\Controllers\Auth\MotDePasseOublieController;
+
+
 /*
 
 /*
@@ -30,3 +33,4 @@ Route::get('/controle-à-distance', [ContrôleAdistanceController::class, 'getCo
 // AUTH 
 Route::get('/connexion', [ConnectionController::class, 'getConnexion' ])->name('connexion');
 Route::get('/enregistrement', [EnregistrementController::class, 'getEnregistrement' ])->name('creer-un-compte');
+Route::get('/mot-de-passe-oublie', [MotDePasseOublieController::class, 'getMotDePasseOublie' ])->name('mot-de-passe-oublie');
