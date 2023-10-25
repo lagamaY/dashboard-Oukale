@@ -14,27 +14,20 @@
               <h4 class="font-weight-light text-center">Réinitialiser le mot de passe</h4>
               <br/>
               <form class="pt-3">
-                <!-- <div class="form-group">
-                  <input type="text" class="form-control form-control-lg" id="exampleInputUsername1" placeholder="Nom & prénoms">
-                </div> -->
-                <!-- <div class="form-group">
-                  <input type="email" class="form-control form-control-lg" id="exampleInputEmail1" placeholder="Email">
-                </div> -->
+  
                
                 <div class="form-group">
-                  <input type="password" class="form-control form-control-lg" id="exampleInputPassword1" placeholder="Mot de passe">
+                  <input type="password" class="form-control form-control-lg" id="InputPassword" placeholder="Mot de passe">
                 </div>
                 <div class="form-group">
-                  <input type="password" class="form-control form-control-lg" id="exampleInputPassword1" placeholder="Confirmer le mot de passe ">
+                  <input type="password" class="form-control form-control-lg" id="InputPassword" placeholder="Confirmer le mot de passe ">
                 </div>
                
                 <br/>
                 <div class="mt-3 text-center " >
                   <a class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn" href="">Soumettre</a>
                 </div>
-                <!-- <div class="text-center mt-4 font-weight-light">
-                Vous avez déjà un compte ?  <a href="{{route('connexion')}}" class="text-primary">Se connecter</a>
-                </div> -->
+              
               </form>
             </div>
           </div>

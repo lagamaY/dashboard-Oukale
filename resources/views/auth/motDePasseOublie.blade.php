@@ -15,12 +15,12 @@
               <br/>
               <form class="pt-3">
                 <div class="form-group">
-                  <input type="text" class="form-control form-control-lg" id="exampleInputUsername1" placeholder="Email">
+                  <input type="text" class="form-control form-control-lg" id="InputUsername" placeholder="Email">
                 </div>
               
                 <br/>
                 <div class="mt-3 text-center " >
-                  <a class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn" href="">Rénitialiser le mot de passe</a>
+                  <a class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn" href="">Réinitialiser le mot de passe</a>
                 </div>
                 <div class="text-center mt-4 font-weight-light">
                 Ou  <a href="{{route('connexion')}}" class="text-primary">Se connecter</a>

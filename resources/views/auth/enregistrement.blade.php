@@ -15,17 +15,17 @@
               <br/>
               <form class="pt-3">
                 <div class="form-group">
-                  <input type="text" class="form-control form-control-lg" id="exampleInputUsername1" placeholder="Nom & prénoms">
+                  <input type="text" class="form-control form-control-lg" id="InputUsername" placeholder="Nom & prénoms">
                 </div>
                 <div class="form-group">
-                  <input type="email" class="form-control form-control-lg" id="exampleInputEmail1" placeholder="Email">
+                  <input type="email" class="form-control form-control-lg" id="InputEmail" placeholder="Email">
                 </div>
                
                 <div class="form-group">
-                  <input type="password" class="form-control form-control-lg" id="exampleInputPassword1" placeholder="Mot de passe">
+                  <input type="password" class="form-control form-control-lg" id="InputPassword" placeholder="Mot de passe">
                 </div>
                 <div class="form-group">
-                  <input type="password" class="form-control form-control-lg" id="exampleInputPassword1" placeholder="Confirmer le mot de passe ">
+                  <input type="password" class="form-control form-control-lg" id="InputPassword" placeholder="Confirmer le mot de passe ">
                 </div>
                
                 <br/>

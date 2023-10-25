@@ -7,7 +7,7 @@
       var AudienceChart = new Chart(AudienceChartCanvas, {
         type: 'bar',
         data: {
-          labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun"],
+          labels: ["Janvier", "Fevrier", "Mars", "Avril", "Mai", "Juin"],
           datasets: [
             {
               type: 'line',
@@ -16,12 +16,12 @@
               borderColor: '#ff4c5b'
             },
             {
-              label: 'Offline Sales',
+              label: 'Sécourues',
               data: [100, 230, 340, 340, 260, 340],
               backgroundColor: '#2CBB9B'
             },
             {
-              label: 'Online Sales',
+              label: 'Décédées',
               data: [130, 190, 250, 250, 190, 260],
               backgroundColor: '#1cbccd'
             }
@@ -186,10 +186,10 @@
       var taskChart = new Chart(taskChartCanvas, {
         type: 'bar',
         data: {
-          labels: ["Jan", "Feb", "Mar", "Apr", "May","Jun", "Jul", "Aug"],
+          labels: ["Abidjan", "Man", "Adzopé", "Dabou", "Bouna","Lionel", "Djitri", "Bondoukou"],
           datasets: [{
-              label: 'Profit',
-              data: [-3, -5, -5, 3, 4, -5, -1, 9],
+              label: '',
+              data: [30, -10, 5, 3, -20, 5, 0, 19],
               backgroundColor: '#f83e37'
             }
           ]
@@ -219,8 +219,8 @@
                 fontSize: 10,
                 padding: 0,
                 stepSize: 10,
-                min: -10,
-                max: 10
+                min: -30,
+                max: 30,
               }
             }],
             xAxes: [{
@@ -262,12 +262,12 @@
           labels: ["12", "8", "4", "0"],
           datasets: [
             {
-              label: 'Income',
+              label: 'A abidjan',
               data: [400, 360, 360, 360],
               backgroundColor: '#1cbccd'
             },
             {
-              label: 'Expenses',
+              label: "A l'intérieur",
               data: [320, 190, 180, 140],
               backgroundColor: '#ffbf36'
             }
@@ -350,7 +350,10 @@
       var activityChart = new Chart(activityChartCanvas, {
         type: 'bar',
         data: {
-          labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec", "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec", "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec", "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug"],
+          labels: ["Janvier", "Février", "Mars", "Avril", "Mai", "Juin", "Juillet", "Août", "Septempbre", "Octobre", "Novembre", "Décembre", 
+          "Janvier", "Février", "Mars", "Avril", "Mai", "Juin", "Juillet", "Août", "Septempbre", "Octobre", "Novembre", "Décembre", 
+          "Janvier", "Février", "Mars", "Avril", "Mai", "Juin", "Juillet", "Août", "Septempbre", "Octobre", "Novembre", "Décembre", 
+          "Janvier", "Février", "Mars", "Avril", "Mai", "Juin", "Juillet", "Août"],
           datasets: [{
               label: 'Profit',
               data: [320, 300, 340, 320, 315, 270, 290, 310, 340, 335, 300, 320, 300, 340, 320, 315, 270, 290, 310, 340, 335, 300, 320, 300, 340, 320, 315, 270, 290, 310, 340, 335, 300, 320, 300, 340, 320, 315, 270, 290, 310, 340, 335, 300],
