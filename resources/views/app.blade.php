@@ -14,6 +14,8 @@
         <!-- End plugin css for this page -->
         <!-- inject:css -->
         <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/oukalê.css">
+
         <!-- endinject -->
         <link rel="shortcut icon" href="assets/images/logo.png" />
     </head>
