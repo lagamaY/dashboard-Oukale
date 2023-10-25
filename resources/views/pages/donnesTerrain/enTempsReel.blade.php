@@ -11,18 +11,17 @@
             <div class="col-lg-6 grid-margin stretch-card">
               <div class="card">
                 <div class="card-body">
-                  <h4 class="card-title">Détection de présence des victimes</h4>
+                  <!-- <h4 class="card-title">Détection de présence des victimes</h4> -->
                   <!-- <canvas id="lineChart"></canvas> -->
-                  <canvas id=""></canvas>
+                  
                 </div>
               </div>
             </div>
             <div class="col-lg-6 grid-margin stretch-card">
               <div class="card">
                 <div class="card-body">
-                  <h4 class="card-title">Prédiction de taux d'oxygène</h4>
-                  <!-- <canvas id="barChart"></canvas> -->
-                  <canvas id=""></canvas>
+                  <h4 class="card-title">Nombre de Victime(s) détectée(s)</h4>
+                  <p class="classEnTantReel">15</p>
                 </div>
               </div>
             </div>
@@ -31,9 +30,9 @@
             <div class="col-lg-6 grid-margin stretch-card">
               <div class="card">
                 <div class="card-body">
-                  <h4 class="card-title">Localisation du robot</h4>
+                  <h4 class="card-title">Température actuelle</h4>
                   <!-- <canvas id="areaChart"></canvas> -->
-                  <canvas id=""></canvas>
+                  <p class="classEnTantReel">20°C</p>
 
                 </div>
               </div>
@@ -41,9 +40,9 @@
             <div class="col-lg-6 grid-margin stretch-card">
               <div class="card">
                 <div class="card-body">
-                  <h4 class="card-title">Température</h4>
+                  <h4 class="card-title">Taux d'oxygène dans l'air</h4>
                   <!-- <canvas id="doughnutChart"></canvas> -->
-                  <canvas id=""></canvas>
+                  <p class="classEnTantReel"> 19 %</p>
                 </div>
               </div>
             </div>

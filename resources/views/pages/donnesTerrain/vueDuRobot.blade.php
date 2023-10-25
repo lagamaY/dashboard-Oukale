@@ -48,9 +48,9 @@
             <div class="col-lg-6 grid-margin stretch-card">
               <div class="card">
                 <div class="card-body">
-                  <h4 class="card-title"> état des cameras</h4>
+                  <h4 class="card-title"> état des caméras</h4>
                   <!-- <canvas id="doughnutChart"></canvas> -->
-                  <p class="classVueEnsemleRobot">Bonne</p>
+                  <p class="classVueEnsemleRobot">Bon</p>
                 </div>
               </div>
             </div>

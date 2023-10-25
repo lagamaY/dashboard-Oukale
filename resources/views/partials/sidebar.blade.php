@@ -38,19 +38,19 @@
        
         
         <li class="nav-item sidebar-category">
-          <p>Oukalê</p>
+          <p>Documentation</p>
           <span></span>
         </li>
-        <li class="nav-item">
+        <!-- <li class="nav-item">
           <a class="nav-link" href="{{Route('getEtatDeSante')}}">
             <i class="mdi mdi-file-document-box-outline menu-icon"></i>
             <span class="menu-title">Etat de santé</span>
           </a>
-        </li>
+        </li> -->
         <li class="nav-item">
           <a class="nav-link" href="#">
             <i class="mdi mdi-file-document-box-outline menu-icon"></i>
-            <span class="menu-title">Ressources</span>
+            <span class="menu-title">Oukalê</span>
           </a>
         </li> <br/>
         <li class="nav-item">
