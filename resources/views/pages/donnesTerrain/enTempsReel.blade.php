@@ -13,6 +13,7 @@
                 <div class="card-body">
                   <!-- <h4 class="card-title">Détection de présence des victimes</h4> -->
                   <!-- <canvas id="lineChart"></canvas> -->
+                  <p class="classEnTantReel">Vidéo en direct</p>
                   
                 </div>
               </div>
