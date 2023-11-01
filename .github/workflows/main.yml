@@ -25,6 +25,9 @@ jobs:
       - name: Copier le fichier .env
         run: cp .env.example .env
 
+      - name: Générer une valeur pour APP_KEY
+        run: echo "APP_KEY=base64:zDDFPnEzo0gSPP0k6OQu40MynQqkZgJVa+TjOizhmHA=" >> .env
+
       - name: Zip le code github avec .env
         run: zip -r ${{env.DEPLOY_PACKAGE_NAME}} ./ -x *.git* 
       
