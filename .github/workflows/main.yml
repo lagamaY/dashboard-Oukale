@@ -21,16 +21,12 @@ jobs:
 
       - name: Installer les dépendances PHP
         run: composer install
-        # working-directory: ./path/to/your/laravel/project  
 
       - name: Copier le fichier .env
         run: cp .env.example .env
-        # working-directory: ./path/to/your/laravel/project  
 
       - name: Zip le code github avec .env
-
-      - name: Zip le code github
-        run: zip -r ${{env.DEPLOY_PACKAGE_NAME}} ./ -x *.git*
+        run: zip -r ${{env.DEPLOY_PACKAGE_NAME}} ./ -x *.git* .env
       
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v1
