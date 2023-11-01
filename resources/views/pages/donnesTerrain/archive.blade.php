@@ -104,6 +104,7 @@
                             <div class="regional-chart-legend d-flex align-items-center flex-wrap mb-1"
                                 id="regional-chart-legend"></div>
                             <canvas height="280" id="regional-chart"></canvas>
+
                             </div>
                         </div>
                         </div>
