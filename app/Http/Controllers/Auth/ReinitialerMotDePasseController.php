@@ -29,7 +29,7 @@ class ReinitialerMotDePasseController extends Controller
         // // Générez un jeton de réinitialisation de mot de passe (peut être géré par Laravel)
         // $token = bcrypt(str_random(40));
 
-        // Mettez à jour le mot de passe de l'utilisateur
+        // Mettez à jour le mot de passe de l'utilisateur 
         $user = User::where('email', $request->email)->first();
         $user->password = Hash::make($request->password); // Assurez-vous d'utiliser bcrypt pour le mot de passe
         $res = $user->save();

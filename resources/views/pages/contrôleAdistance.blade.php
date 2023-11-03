@@ -35,7 +35,7 @@
     text-align: center;
     }
 
-    .card:hover {
+    .card:hover {      
         transform: scale(1.02);
     }
 
