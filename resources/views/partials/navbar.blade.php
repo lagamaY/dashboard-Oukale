@@ -8,8 +8,8 @@
             <!-- <a class="navbar-brand brand-logo-mini" href="/"><img src="assets/images/logo-mini.svg" alt="logo"/></a> -->
           </div>
           <ul class="navbar-nav navbar-nav-right">
-            
-            
+
+
             <li class="nav-item dropdown me-2">
               <a class="nav-link count-indicator dropdown-toggle d-flex align-items-center justify-content-center" id="notificationDropdown" href="#" data-bs-toggle="dropdown">
                 <i class="mdi mdi-email-open mx-0"></i>
@@ -75,14 +75,17 @@
             <li class="nav-item nav-profile dropdown">
               <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" id="profileDropdown">
                 <img src="assets/images/faces/lagama.jpeg" alt="profile"/>
-                <span class="nav-profile-name">Lagama Coulibaly</span>
+                <!-- <span class="nav-profile-name">Lagama Coulibaly</span> -->
+                <span class="nav-profile-name">{{ $data->name }}</span>
+
+
               </a>
               <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="profileDropdown">
                 <a class="dropdown-item">
                   <i class="mdi mdi-settings text-primary"></i>
                   Paramètre
                 </a>
-                <a class="dropdown-item">
+                <a class="dropdown-item" href="{{route('deconnexion-utilisateur')}}">
                   <i class="mdi mdi-logout text-primary"></i>
                   Déconnexion
                 </a>
