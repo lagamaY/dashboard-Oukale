@@ -35,8 +35,8 @@ jobs:
         uses: aws-actions/configure-aws-credentials@v1
         with:
           # node-version: 16
-          aws-access-key-id: ${{secrets.ACCESS_KEY_ID_LAGAMA}}
-          aws-secret-access-key: ${{secrets.SECRET_ACCESS_KEY_LAGAMA}}
+          aws-access-key-id: ${{secrets.ACCESS_KEY_ID}}
+          aws-secret-access-key: ${{secrets.SECRET_ACCESS_KEY}}
           aws-region: ${{env.AWS_REGION}}
           
       - name: Télécharger le déploiement vers le bucket S3 
