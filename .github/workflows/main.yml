@@ -1,9 +1,9 @@
 name: CI/CD Dashboard Oukale
 
 env:
-  "S3_BUCKET_NAME": "s3dashboardoukale"
-  "EBS_APPLICATION_NAME": "dashboard-oukale-beanstalk"
-  "EBS_ENVIRONMENT_NAME": "Dashboard-oukale-beanstalk-env"
+  "S3_BUCKET_NAME": "s3dashboardoukale1"
+  "EBS_APPLICATION_NAME": "DashOukale"
+  "EBS_ENVIRONMENT_NAME": "DashOukale-env-1"
   "AWS_REGION": "us-east-1"
   "DEPLOY_PACKAGE_NAME": "dashboard-oukale-${{github.sha}}.zip"
   
