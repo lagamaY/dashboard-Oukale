@@ -1,9 +1,9 @@
 name: CI/CD Dashboard Oukale
 
 env:
-  "S3_BUCKET_NAME": "s3dashboardoukale"
-  "EBS_APPLICATION_NAME": "dashboard-oukale-beanstalk"
-  "EBS_ENVIRONMENT_NAME": "Dashboard-oukale-beanstalk-env"
+  "S3_BUCKET_NAME": "s3dashboardoukale1"
+  "EBS_APPLICATION_NAME": "DashOukale"
+  "EBS_ENVIRONMENT_NAME": "DashOukale-env-1"
   "AWS_REGION": "us-east-1"
   "DEPLOY_PACKAGE_NAME": "dashboard-oukale-${{github.sha}}.zip"
   
@@ -35,8 +35,8 @@ jobs:
         uses: aws-actions/configure-aws-credentials@v1
         with:
           # node-version: 16
-          aws-access-key-id: ${{secrets.ACCESS_KEY_ID_LAGAMA}}
-          aws-secret-access-key: ${{secrets.SECRET_ACCESS_KEY_LAGAMA}}
+          aws-access-key-id: ${{secrets.ACCESS_KEY_ID}}
+          aws-secret-access-key: ${{secrets.SECRET_ACCESS_KEY}}
           aws-region: ${{env.AWS_REGION}}
           
       - name: Télécharger le déploiement vers le bucket S3 
