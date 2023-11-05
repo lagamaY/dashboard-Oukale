@@ -16,7 +16,8 @@ class VueDuRobotController extends Controller
 
 
         // Exécutez le script Python et capturez la sortie
-        $output = shell_exec('python C:\Users\cyril\OneDrive\Bureau\mbot-ros\mbot-ros\test.py');
+        // $output = shell_exec('python C:\Users\cyril\OneDrive\Bureau\mbot-ros\mbot-ros\test.py');python ../../../../../resources/scripts
+        $output = shell_exec('python ../../../../../resources/scripts/test.py');
 
         // Vérifiez la sortie pour déterminer l'état
         $status = trim($output); // Supprimez les espaces en début et fin
